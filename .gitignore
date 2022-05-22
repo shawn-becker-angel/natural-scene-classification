@@ -121,6 +121,8 @@ venv.bak/
 venv/
 
 kaggle/
+kaggle.json
+.git/
 
 # Spyder project settings
 .spyderproject
@@ -144,3 +146,5 @@ dmypy.json
 
 credentials/
 .DS_Store
+*.pth
+screenshots/
