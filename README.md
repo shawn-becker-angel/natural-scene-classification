@@ -37,10 +37,23 @@ category is `(buildings, forest, glacier, mountain, sea and street)`
 verify the following:
 ```
 data_root = "./kaggle/input"
-data_dir = "./kaggle/input/seg_train"
+train_dir = "./kaggle/input/seg_train"
 test_data_dir = "./kaggle/input/seg_test"
 pred_data_dir = "./kaggle/input/seg_pred"
 ```
 
-
 open and run all cells of the jupyter notebook in vscode
+
+## TODO
+1. In "Evaluating Test Data" section use the model to predict 
+classes for all images in the pred_data_dir and display a 
+confusion matrix that shows true vs. predicted classes.
+
+## PyTorch Questions:
+How to save the pytorch model and history to disk after each epoch
+
+## Sage Maker Questions
+How to use AWS Fast File i/o to pull image data from s3 directly
+
+## Local Development Questions:
+How to parallelize pytorch model fitting to use all 16 cores on my local intel 64 chip
