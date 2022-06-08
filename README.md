@@ -36,10 +36,9 @@ category is `(buildings, forest, glacier, mountain, sea and street)`
 ## Check app settings
 verify the following:
 ```
-data_root = "./kaggle/input"
-train_dir = "./kaggle/input/seg_train"
-test_data_dir = "./kaggle/input/seg_test"
-pred_data_dir = "./kaggle/input/seg_pred"
+train_data_dir = "./intel-image-classification/input/seg_train/seg_train"
+test_data_dir = "./intel-image-classification/input/seg_test/seg_test"
+pred_data_dir = "./intel-image-classification/input/seg_pred/seg_pred"
 ```
 
 open and run all cells of the jupyter notebook in vscode
